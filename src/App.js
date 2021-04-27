@@ -1,20 +1,15 @@
-import React, { Component } from 'react'
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-          <model-viewer
-            src="https://modelviewer.dev/examples/loading/../../shared-assets/models/reflective-sphere.gltf"
-            ios-src=".https://modelviewer.dev/examples/loading/../../shared-assets/models/Astronaut.glb"
-            alt='model name'
-            ar
-            loading='lazy'
-            camera-controls
-            autoplay>
-          </model-viewer>
-      </div>
-    );
-  }
-}
+import React from 'react'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
+/* Custom components. */
+import AugmentedReality from './pages/AugmentedReality'
 
-export default App;
+const App = () =>
+  <BrowserRouter>
+    <Switch>
+      <Route exact path='/augmented-reality' component={AugmentedReality}>
+        <AugmentedReality/>
+      </Route>
+    </Switch>
+  </BrowserRouter>
+
+export default App
