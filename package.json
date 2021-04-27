@@ -1,26 +1,17 @@
 {
   "name": "augmented-reality",
-  "version": "1.0.0",
-  "description": "Personal project where i'm gonna be using javascript to experiment with augmented reality on http://www.sudovon.com/augmented-reality",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "0.9.5"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sudo-von/augmented-reality-javascript.git"
-  },
-  "keywords": [
-    "augmented-reality",
-    "portfolio",
-    "sudo-von",
-    "sudovon",
-    "von"
-  ],
-  "author": "Jesús Ángel Rodríguez Martínez",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sudo-von/augmented-reality-javascript/issues"
-  },
-  "homepage": "https://github.com/sudo-von/augmented-reality-javascript#readme"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
