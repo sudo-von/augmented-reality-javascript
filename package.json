@@ -1,0 +1,26 @@
+{
+  "name": "augmented-reality",
+  "version": "1.0.0",
+  "description": "Personal project where i'm gonna be using javascript to experiment with augmented reality on http://www.sudovon.com/augmented-reality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudo-von/augmented-reality-javascript.git"
+  },
+  "keywords": [
+    "augmented-reality",
+    "portfolio",
+    "sudo-von",
+    "sudovon",
+    "von"
+  ],
+  "author": "Jesús Ángel Rodríguez Martínez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudo-von/augmented-reality-javascript/issues"
+  },
+  "homepage": "https://github.com/sudo-von/augmented-reality-javascript#readme"
+}
