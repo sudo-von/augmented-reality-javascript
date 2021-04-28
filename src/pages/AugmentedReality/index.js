@@ -5,12 +5,25 @@ import Grid from '@material-ui/core/Grid'
 import Navbar from '../../components/Navbar/'
 import ModelViewer from './Components/ModelViewer/'
 
+const styles = {
+    grid: {
+        container: {
+            height: '100vh'
+        },
+        item: {
+            display: 'flex', 
+            justifyContent: 'center', 
+            alignItems: 'center'
+        }
+    }
+}
+
 const AugmentedReality = ( { theme, themeToggler } ) => 
     <React.Fragment>
         <Navbar theme={theme} themeToggler={themeToggler}/>
-        <Grid container style={{height: '100vh'}}>
-            <Grid item xs={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                <ModelViewer loading='auto'/>
+        <Grid container style={styles.container}>
+            <Grid item xs={12} style={styles.item}>
+                <ModelViewer/>
             </Grid>
         </Grid>
     </React.Fragment>    

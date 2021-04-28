@@ -12,4 +12,11 @@ export const GlobalStyles = createGlobalStyle`
   a{
     color: ${({ theme: { text } }) => text.color };
   } 
+
+  model-viewer {
+    --poster-color: ${({ theme: { body } }) => body.background_color };
+    --progress-bar-color: ${({ theme: { body } }) => body.background_color };
+    --progress-bar-height: 0;
+    --progress-mask: ${({ theme: { body } }) => body.background_color };
+  }
 `
