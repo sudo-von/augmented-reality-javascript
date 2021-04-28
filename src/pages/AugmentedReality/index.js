@@ -10,7 +10,7 @@ const AugmentedReality = ( { theme, themeToggler } ) =>
         <Navbar theme={theme} themeToggler={themeToggler}/>
         <Grid container style={{height: '100vh'}}>
             <Grid item xs={12} style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                <ModelViewer/>
+                <ModelViewer loading='auto'/>
             </Grid>
         </Grid>
     </React.Fragment>    
