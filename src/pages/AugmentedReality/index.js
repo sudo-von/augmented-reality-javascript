@@ -8,7 +8,7 @@ import ModelViewer from './Components/ModelViewer/'
 const styles = {
     grid: {
         container: {
-            height: '100vh'
+            height: '80vh'
         },
         item: {
             display: 'flex', 
@@ -21,8 +21,8 @@ const styles = {
 const AugmentedReality = ( { theme, themeToggler } ) => 
     <React.Fragment>
         <Navbar theme={theme} themeToggler={themeToggler}/>
-        <Grid container style={styles.container}>
-            <Grid item xs={12} style={styles.item}>
+        <Grid container style={styles.grid.container}>
+            <Grid item xs={12} style={styles.grid.item}>
                 <ModelViewer/>
             </Grid>
         </Grid>
