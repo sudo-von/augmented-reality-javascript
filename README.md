@@ -6,13 +6,13 @@
 <br />
 <p align="center">
   <a>
-    <img src="https://jaxenter.com/wp-content/uploads/2020/03/goxygenlogo.png" alt="Logo" width="200" height="140">
+    <img src="https://miro.medium.com/max/3200/1*OF0xEMkWBv-69zvmNs6RDQ.gif" alt="Logo" width="800" height="350">
   </a>
 
   <h3 align="center">Augmented reality</h3>
 
   <p align="center">
-    Personal project where i'm gonna be using javascript to experiment with augmented reality on http://www.sudovon.com/augmented-reality.
+    Personal project where my girlfriend and i will be using javascript to experiment with augmented reality on <a  target="_blank" href="http://www.sudovon.com/augmented-reality">http://www.sudovon.com/augmented-reality</a>.
     <br />
     <br />
     <a href="https://github.com/sudo-von/augmented-reality-javascript"><strong>Explore the docs »</strong></a>
@@ -31,10 +31,7 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <ul>
+        <li><a href="#prerequisites">Compability</a></li>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
@@ -51,11 +48,21 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Portfolio](assets/portfolio.gif)
+My girlfriend and i wanted to develop this project for the augmented reality class using Javascript and Blender, so we looked for a library that would allow us to use Blender's models to be able to render them on a web page, that's how we found the Google model viewer library. 
+So, using Google model viewer and ReactJS we achieve this result.
 
-I decided to experiment with augmented reality using Javascript and Blender. 
-The experience was interesting although i had problems with Google's model viewer library when i installed it with npm so i used the CDN.
+#### Comptaibility
+##### Desktop
 
+![Portfolio](assets/desktop.gif)
+
+#### Mobile [Android]
+
+![Portfolio](assets/android.gif)
+
+#### Mobile [iOS]
+
+![Portfolio](assets/ios.gif)
 ### Built With
 
 * [Javascript](https://developer.mozilla.org/es/docs/Web/JavaScript)
@@ -70,12 +77,12 @@ The experience was interesting although i had problems with Google's model viewe
 ### Prerequisites
 
 * git
-* npm
 * node
+* npm
 
 ### Installation
 
-1. <b>Clone</b> the repo.
+1. Clone the repo.
    ```sh
    git clone https://github.com/sudo-von/augmented-reality-javascript.git
    ```
@@ -87,11 +94,11 @@ The experience was interesting although i had problems with Google's model viewe
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use npm start to start development mode
+Use npm start to start development mode.
 ```sh
 npm start
 ```
-Use npm build to generate the production bundle
+Use npm build to generate the production bundle.
 ```sh
 npm build
 ```
