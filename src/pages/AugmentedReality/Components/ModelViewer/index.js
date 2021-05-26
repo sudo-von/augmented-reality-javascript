@@ -1,1 +1,1 @@
-export { default } from './ModelViewer'
+export { default } from './ModelViewerCard'
