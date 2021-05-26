@@ -3,8 +3,8 @@ export const lightTheme = {
       background_color: '#F2F2F2',
     },
     text: {
-      color: '#37474F',
-      highlighted_color: '#1f4068',
+      color: 'black',
+      highlighted_color: 'black',
     },
     toggler: {
       border_color: '#F2F2F2',
@@ -18,7 +18,7 @@ export const lightTheme = {
       background_color: 'white'
     },
     hr: {
-      border_color: '#1f4068'
+      border_color: 'black'
     }
   }
   
