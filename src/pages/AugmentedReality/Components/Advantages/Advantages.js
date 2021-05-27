@@ -1,7 +1,6 @@
 import React from 'react'
 /* Material-ui. */
 import Grid from "@material-ui/core/Grid"
-import Avatar from '@material-ui/core/Avatar'
 
 const styles = {
     grid: {
@@ -26,9 +25,9 @@ const styles = {
 }
 
 const Advantages = ( { avatarURL } ) =>
-    <Grid container direction="row" justifyContent="center" alignItems="center" style={styles.grid.container}>
+    <Grid container direction="row" alignItems="center" style={styles.grid.container}>
         <Grid xs={12} sm={6} item style={styles.grid.item}>
-            <iframe style={styles.iframe} src="https://www.youtube.com/embed/ixxaoJpWB_0" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe style={styles.iframe} src="https://www.youtube.com/embed/ixxaoJpWB_0" frameBorder="0"></iframe>
         </Grid>
         <Grid xs={12} sm={6} item style={styles.grid.item}>
             <div>

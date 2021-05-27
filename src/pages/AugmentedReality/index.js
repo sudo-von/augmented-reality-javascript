@@ -1,10 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 /* Material-ui. */
 import Grid from '@material-ui/core/Grid'
-import Carousel from 'react-material-ui-carousel'
 /* Custom components. */
 import Navbar from '../../components/Navbar/'
-import ModelViewer from './Components/ModelViewer/'
 import StoreDescription from './Components/StoreDescription/'
 import StoreServices from './Components/StoreServices/'
 import Advantages from './Components/Advantages/'
@@ -35,7 +33,7 @@ const AugmentedReality = ( { theme, themeToggler } ) => {
         <div>
             <Navbar theme={theme} themeToggler={themeToggler}/>
             <Grid container direction='row' justify='center' alignItems='center'>
-                <Grid item xs={12} sm={10} md={8} item style={styles.grid.item}>
+                <Grid item xs={12} sm={10} md={8} style={styles.grid.item}>
                     <StoreDescription avatarURL={avatarURL}/>
                     <StoreServices/>
                     <Advantages/>

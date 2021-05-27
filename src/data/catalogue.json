@@ -1,5 +1,6 @@
 [
     {
+        "id": 1,
         "img": "../../../../assets/images/jelly.png",
         "name": "Mesa rustica",
         "description": ["Pedestal tubular.", "Cubierta de formaica especial.", "Tornillos niveladores."],
@@ -8,6 +9,7 @@
         "ios_model": "../../../../assets/android/jelly.glb"
     },
     {
+        "id": 2,
         "img": "../../../../assets/images/furniture.png",
         "name": "Estante para televisión", 
         "description": ["Mueble listo para ensamblar.", "Incluye instrucciones de armado.", "No incluye la televisión."],
@@ -16,6 +18,7 @@
         "ios_model": "../../../../assets/android/furniture.glb"
     },
     {
+        "id": 3,
         "img": "../../../../assets/images/armchair.png",
         "name": "Sillón", 
         "description": ["Sofá minimalista.", "Asientos amplios.", "Cojines sueltos."],

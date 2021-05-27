@@ -27,7 +27,6 @@ const styles = {
 }
   
 const ModelViewerCard = ( { pieceOfFurniture } ) => {
-    console.log(pieceOfFurniture)
     /* Hook to handle each modal. */
     const [ open, setOpen ] = React.useState(false)
     const handleOpen = () => {
@@ -51,8 +50,8 @@ const ModelViewerCard = ( { pieceOfFurniture } ) => {
                     <p style={{fontSize: 12}}><b>Costo</b>: $ {pieceOfFurniture.cost.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</p>
                     <p><b>Descripción</b>:</p>
                     <ul style={{textAlign: "left"}}>
-                        {pieceOfFurniture.description.map(description => 
-                            <li>{description}</li>)}
+                        {pieceOfFurniture.description.map((i, description) => 
+                            <li key={`${i}-${description}`}>{description}</li>)}
                     </ul>
                 </CardContent>
             </CardActionArea>

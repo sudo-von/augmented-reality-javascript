@@ -28,19 +28,19 @@ const StoreDescription = () =>
         <Grid item xs={12}>
             <h3 style={styles.h4}>Servicios</h3>
         </Grid>
-        <Grid item xs={12} sm={6} md={3} item>
+        <Grid item xs={12} sm={6} md={3}>
             <LocalShippingIcon fontSize="large"/>
             <h5>LLEVAMOS TUS MUEBLES Y TE LOS INSTALAMOS</h5>
         </Grid>
-        <Grid item xs={12} sm={6} md={3} item>
+        <Grid item xs={12} sm={6} md={3}>
             <PaymentIcon fontSize="large"/>
             <h5>ESQUEMAS FLEXIBLES DE FINANCIAMIENTO</h5>
         </Grid>
-        <Grid item xs={12} sm={6} md={3} item>
+        <Grid item xs={12} sm={6} md={3}>
             <CallIcon fontSize="large"/>
             <h5>SERVICIO POST-VENTA ESPECIALIZADO</h5>
         </Grid>
-        <Grid item xs={12} sm={6} md={3} item>
+        <Grid item xs={12} sm={6} md={3}>
             <EventIcon fontSize="large"/>
             <h5>AGENDA TU CITA EN SUCURSAL</h5>
         </Grid>

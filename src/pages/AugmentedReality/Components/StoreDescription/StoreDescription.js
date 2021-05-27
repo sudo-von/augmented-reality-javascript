@@ -28,8 +28,8 @@ const styles = {
 }
 
 const StoreDescription = ( { avatarURL } ) =>
-    <Grid item xs={12} item style={styles.grid.item}>
-        <Grid container direction="row" justify="center" alignItems="center" item xs={12} item>
+    <Grid xs={12} item style={styles.grid.item}>
+        <Grid container direction="row" justify="center" alignItems="center" xs={12} item>
             <Avatar style={styles.avatar} alt="Muebles LC" src={avatarURL} />
         </Grid>
         <h1 style={styles.grid.item.h1}>MUEBLES MAYORAL

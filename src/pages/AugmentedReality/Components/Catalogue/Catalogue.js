@@ -44,7 +44,7 @@ const Catalogue = ( { furniture } ) =>
             <br/>Lo único que necesitas hacer es seleccionar la opción <b>"Ver modelo en 3D"</b> del mueble que te gustó para poder visualizarlo.</p>
         </Grid>
         {furniture && furniture.map( pieceOfFurniture => 
-            <Grid item xs={12} sm={6} md={4} item style={{padding: 10}}>
+            <Grid key={pieceOfFurniture.id} xs={12} sm={6} md={4} item style={{padding: 10}}>
                 <ModelViewerCard pieceOfFurniture={pieceOfFurniture}/>
             </Grid>
         )}
