@@ -27,6 +27,7 @@ const styles = {
 }
   
 const ModelViewerCard = ( { pieceOfFurniture } ) => {
+
     /* Hook to handle each modal. */
     const [ open, setOpen ] = React.useState(false)
     const handleOpen = () => {
@@ -35,6 +36,8 @@ const ModelViewerCard = ( { pieceOfFurniture } ) => {
     const handleClose = () => {
         setOpen(false)
     }
+    /* Destructuring props. */
+    let { img, name, cost, description } = pieceOfFurniture
 
     return(
         <Card>
@@ -42,16 +45,16 @@ const ModelViewerCard = ( { pieceOfFurniture } ) => {
                 <CardMedia
                 component="img" 
                     style={styles.img}
-                    src={`../../../../assets/images/${pieceOfFurniture.img}`}
-                    title={pieceOfFurniture.name}
+                    src={img}
+                    title={name}
                 />
                 <CardContent>
-                    <p style={{fontWeight: "bold", fontSize: 14}}>{pieceOfFurniture.name}</p>
-                    <p style={{fontSize: 12}}><b>Costo</b>: $ {pieceOfFurniture.cost.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</p>
+                    <p style={{fontWeight: "bold", fontSize: 14}}>{name}</p>
+                    <p style={{fontSize: 12}}><b>Costo</b>: $ {cost}</p>
                     <p><b>Descripción</b>:</p>
                     <ul style={{textAlign: "left"}}>
-                        {pieceOfFurniture.description.map((description, i) => 
-                            <li key={`${i}-${description}`}>{description}</li>)}
+                        {description.map((val, i) => 
+                            <li key={`${i}-${val}`}>{val}</li>)}
                     </ul>
                 </CardContent>
             </CardActionArea>
