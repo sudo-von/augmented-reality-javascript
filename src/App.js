@@ -19,7 +19,7 @@ const App = () => {
   <GlobalStyles/>
     <BrowserRouter>
       <Switch>
-        <Route exact path='/'>
+        <Route path='/'>
           <AugmentedReality theme={theme} themeToggler={themeToggler}/>
         </Route>
       </Switch>
