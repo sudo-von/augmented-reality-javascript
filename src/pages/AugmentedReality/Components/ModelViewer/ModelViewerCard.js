@@ -42,7 +42,7 @@ const ModelViewerCard = ( { pieceOfFurniture } ) => {
                 <CardMedia
                 component="img" 
                     style={styles.img}
-                    src={pieceOfFurniture.img}
+                    src={`../../../../assets/images/${pieceOfFurniture.img}`}
                     title={pieceOfFurniture.name}
                 />
                 <CardContent>

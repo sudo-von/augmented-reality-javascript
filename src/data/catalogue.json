@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "../../../../assets/images/jelly.png",
+        "img": "jelly.png",
         "name": "Mesa rustica",
         "description": ["Pedestal tubular.", "Cubierta de formaica especial.", "Tornillos niveladores."],
         "cost": 4000,
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "img": "../../../../assets/images/furniture.png",
+        "img": "furniture.png",
         "name": "Estante para televisión", 
         "description": ["Mueble listo para ensamblar.", "Incluye instrucciones de armado.", "No incluye la televisión."],
         "cost": 8000,
@@ -19,7 +19,7 @@
     },
     {
         "id": 3,
-        "img": "../../../../assets/images/armchair.png",
+        "img": "armchair.png",
         "name": "Sillón", 
         "description": ["Sofá minimalista.", "Asientos amplios.", "Cojines sueltos."],
         "cost": 3000,

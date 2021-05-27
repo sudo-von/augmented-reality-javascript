@@ -24,10 +24,10 @@ const styles = {
     }
 }
 
-const Advantages = ( { avatarURL } ) =>
+const Advantages = ( { youtubeURL } ) =>
     <Grid container direction="row" alignItems="center" style={styles.grid.container}>
         <Grid xs={12} sm={6} item style={styles.grid.item}>
-            <iframe style={styles.iframe} src="https://www.youtube.com/embed/ixxaoJpWB_0" frameBorder="0"></iframe>
+            <iframe style={styles.iframe} src={youtubeURL} frameBorder="0"></iframe>
         </Grid>
         <Grid xs={12} sm={6} item style={styles.grid.item}>
             <div>

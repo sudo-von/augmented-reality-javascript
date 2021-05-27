@@ -28,6 +28,7 @@ const AugmentedReality = ( { theme, themeToggler } ) => {
 
     const [ data ] = useFile('catalogue.json')
     const avatarURL = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNTN2xMhJeimPqTtxfHfWsW6QDFi-VqRYisw&usqp=CAU'
+    const youtubeURL = 'https://www.youtube.com/embed/ixxaoJpWB_0'
 
     return(
         <div>
@@ -36,7 +37,7 @@ const AugmentedReality = ( { theme, themeToggler } ) => {
                 <Grid item xs={12} sm={10} md={8} style={styles.grid.item}>
                     <StoreDescription avatarURL={avatarURL}/>
                     <StoreServices/>
-                    <Advantages/>
+                    <Advantages youtubeURL={youtubeURL}/>
                     <Catalogue furniture={data}/>
                 </Grid>
             </Grid>
