@@ -39,7 +39,7 @@ export const lightTheme = {
       background_color: '#0e142f'
     },
     card: {
-      background_color: '#102247'
+      background_color: '#0e142f'
     },
     hr: {
       border_color: '#3c7bff'

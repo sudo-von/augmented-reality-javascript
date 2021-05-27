@@ -50,7 +50,7 @@ const ModelViewerCard = ( { pieceOfFurniture } ) => {
                     <p style={{fontSize: 12}}><b>Costo</b>: $ {pieceOfFurniture.cost.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</p>
                     <p><b>Descripción</b>:</p>
                     <ul style={{textAlign: "left"}}>
-                        {pieceOfFurniture.description.map((i, description) => 
+                        {pieceOfFurniture.description.map((description, i) => 
                             <li key={`${i}-${description}`}>{description}</li>)}
                     </ul>
                 </CardContent>

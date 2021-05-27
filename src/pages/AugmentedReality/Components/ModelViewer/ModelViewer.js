@@ -14,6 +14,9 @@ const styles = {
     modelViewer: {
         height: 350,
         width: 550
+    },
+    h2: {
+        color: "black"
     }
 }
   
@@ -31,7 +34,7 @@ const ModelViewer = ( { name, img, android_model, ios_model } ) =>
             auto-rotate
             autoplay>
         </model-viewer>
-        <h2>{name}</h2>
+        <h2 style={styles.h2}>{name}</h2>
     </div>
 
 

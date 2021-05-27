@@ -12,9 +12,6 @@ import { useFile } from '../../hooks/useFile'
 
 const styles = {
     grid: {
-        container: {
-            background: 'red',
-        },
         item: {
             h1: {
                 textAlign: 'center'
