@@ -6,13 +6,13 @@
 <br />
 <p align="center">
   <a>
-    <img src="https://miro.medium.com/max/3200/1*OF0xEMkWBv-69zvmNs6RDQ.gif" alt="Logo" width="800" height="350">
+    <img src="https://www.ignitingthought.com/wp-content/uploads/2019/06/ezgif.com-video-to-gif-2.gif" alt="Logo" width="800" height="350">
   </a>
 
   <h3 align="center">Augmented reality</h3>
 
   <p align="center">
-    Personal project where my girlfriend and i will be using javascript to experiment with augmented reality on <a  target="_blank" href="http://www.sudovon.com/augmented-reality">http://www.sudovon.com/augmented-reality</a>.
+    Personal project where <a href="https://github.com/alicia-granados" target="_blank">alicia-granados</a> and I will be using javascript to experiment with augmented reality on <a  target="_blank" href="https://sudo-von.github.io/augmented-reality-javascript/">https://sudo-von.github.io/augmented-reality-javascript/</a>.
     <br />
     <br />
     <a href="https://github.com/sudo-von/augmented-reality-javascript"><strong>Explore the docs »</strong></a>
@@ -30,8 +30,8 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
+        <li><a href="#website-preview">Website preview</a></li>
         <li><a href="#built-with">Built With</a></li>
-        <li><a href="#prerequisites">Compability</a></li>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
@@ -48,24 +48,23 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-My girlfriend and i wanted to develop this project for the augmented reality class using Javascript and Blender, so we looked for a library that would allow us to use Blender's models to be able to render them on a web page, that's how we found the Google model viewer library. 
-So, using Google model viewer and ReactJS we achieve this result.
-
-#### Comptaibility
+<a href="https://github.com/alicia-granados" target="_blank">alicia-granados</a> and I wanted to develop this project using Javascript and Blender, so we looked for a library that would allow us to use Blender's models to be able to render them on a website, that's how we found the Google model viewer library.
+So, using Google model viewer and ReactJS we achieve this result where we developed and sold out an "idea" for a furniture store to show the models of the catalogues using augmented reality in their homes instead of exposing people to coronavirus making the website responsive for all the screen resolutions and adding a dark mode theme. Also, we have models for  computer, android and IOS.
+## Website preview
 ##### Desktop
 
 ![Portfolio](assets/desktop.gif)
 
-#### Mobile [Android]
+##### Mobile [Android]
 
 ![Portfolio](assets/android.gif)
 
-#### Mobile [iOS]
+##### Mobile [iOS]
 
 ![Portfolio](assets/ios.gif)
 ### Built With
 
-* [Javascript](https://developer.mozilla.org/es/docs/Web/JavaScript)
+* [Javascript](https://developer.mozilla.org/es/docs/#/JavaScript)
 * [NodeJS](https://nodejs.org/es/)
 * [NPM](https://www.npmjs.com/)
 * [ReactJS](https://reactjs.org/)
@@ -80,7 +79,7 @@ So, using Google model viewer and ReactJS we achieve this result.
 * node
 * npm
 
-### Installation
+## Installation
 
 1. Clone the repo.
    ```sh
@@ -125,8 +124,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 | Email | sudo.von.contact@gmail.com |
 --- | --- |
 
-| Twitter |  [https://twitter.com/sudo_von](https://twitter.com/sudo_von) |
+| Email | aliciagranados35@gmail.com |
 --- | --- |
+
 
 
 
