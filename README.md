@@ -37,6 +37,7 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#scalability">Scalability</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -49,7 +50,8 @@
 ## About The Project
 
 <a href="https://github.com/alicia-granados" target="_blank">alicia-granados</a> and I wanted to develop this project using Javascript and Blender, so we looked for a library that would allow us to use Blender's models to be able to render them on a website, that's how we found the Google model viewer library.
-So, using Google model viewer and ReactJS we achieve this result where we developed and sold out an "idea" for a furniture store to show the models of the catalogues using augmented reality in their homes instead of exposing people to coronavirus making the website responsive for all the screen resolutions and adding a dark mode theme. Also, we have models for  computer, android and IOS.
+So, using Google model viewer and ReactJS we achieve this result where we developed and sold out an "idea" for a furniture store to show the models of the catalogues using augmented reality, in this way the people could look the models in their homes instead of exposing them to coronavirus.
+We make the website responsive for all the screen resolutions and added a dark mode theme. Also, this models work for computer, android and IOS.
 ## Website preview
 ##### Desktop
 
@@ -101,6 +103,12 @@ Use npm build to generate the production bundle.
 ```sh
 npm build
 ```
+
+## Scalibility
+
+If you want to add more piece of furnitures, just add a new json at the 
+src/data/catalogue.json file and add the respectives models for ios/android at the public/assets folder. Also, you will be able to edit this json if you want to change some values.
+
 
 <!-- CONTRIBUTING -->
 ## Contributing
