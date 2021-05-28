@@ -109,6 +109,8 @@ npm build
 If you want to add more piece of furnitures, just add a new json at the 
 src/data/catalogue.json file and add the respectives models for ios/android at the public/assets folder. Also, you will be able to edit this json if you want to change some values.
 
+![Portfolio](assets/scalability.gif)
+
 
 <!-- CONTRIBUTING -->
 ## Contributing
